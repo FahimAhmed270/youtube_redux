@@ -21,3 +21,48 @@
   width: 38px;
   height: 38px;
 }
+@media screen and (max-width:900px) {
+  .user-image,
+  .user-image img {
+    display: none;
+  }
+}
+
+.search-bar{
+  width: 30%;
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    input{
+      padding: 10px 20px;
+      width: 100%;
+      font-size: 15px;
+      &:focus{
+        outline: none;
+      } 
+    }
+    button{
+      padding: 6px;
+      font-size: 20px;
+      margin-left: -3px;
+      
+    }
+  }
+}
+@media screen and (max-width:900px){
+  .search-bar{
+    width: 50%;
+  }
+}
+@media screen and (max-width:500px){
+  .logo {
+    font-size: 18px;
+  }
+  .search-bar{
+    width: 65%;
+  }
+}
+
+
